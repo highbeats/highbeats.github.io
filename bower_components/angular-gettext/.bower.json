@@ -26,6 +26,6 @@
     "commit": "a427bb445c4459d38dec591e5e30a8ecc4651e3c"
   },
   "_source": "git://github.com/rubenv/angular-gettext.git",
-  "_target": "0.2.6",
+  "_target": "*",
   "_originalSource": "angular-gettext"
 }
