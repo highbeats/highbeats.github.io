@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('cmApp')
-  .controller('AddressBookCtrl', function ($modal, Contact, $scope, $log, gettextCatalog) {
+  .controller('AddressBookCtrl', ['$modal', 'Contact', '$scope', '$log', 'gettextCatalog', function ($modal, Contact, $scope, $log, gettextCatalog) {
 
     $scope.contacts = Contact.query();
 
@@ -42,4 +42,4 @@ angular.module('cmApp')
     $scope.changeLanguage = function (ln) {
       gettextCatalog.currentLanguage = ln;
     }
-  });
+  }]);
