@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c6203135e9840595d788"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4f5c47c256fc52be2516"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -41387,7 +41387,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\niPhone < 5:\n@media screen and (device-aspect-ratio: 2/3) {}\n\niPhone 5:\n@media screen and (device-aspect-ratio: 40/71) {}\n\niPhone 6:\n@media screen and (device-aspect-ratio: 375/667) {}\n\niPhone 6 Plus:\n@media screen and (device-aspect-ratio: 16/9) {}\n\niPad:\n@media screen and (device-aspect-ratio: 3/4) {}\n*/\n\n.App-container {\n  font-family: 'Roboto', sans-serif;\n}\n.App-container section {\n  /*background-color: #f5f7fa;*/\n}\n\n@media screen and (device-aspect-ratio: 2/3) and (device-aspect-ratio: 40/71) and (device-aspect-ratio: 375/667) {\n  .header-toggle {\n    display: block;\n  }\n  .header-menu {\n    display: none;\n  }\n}\n/*Note that the iPhone 5 does not have a 16:9 aspect ratio. It is in fact 40:71.*/\n\n.App-container .header-toggle {\n  height: 79px;\n  width: 79px;\n}\n\n#b {\n  box-shadow: 0 20px 60px rgba(17, 17, 17, 0.05), 0 5px 10px rgba(17, 17, 17, 0.1), 0 1px 1px rgba(17, 17, 17, 0.2);\n  display: inline-block;\n  /*height: 240px;*/\n  margin-bottom: 40px;\n  vertical-align: top;\n  width: 240px;\n}\n", ""]);
+	exports.push([module.id, "/*\niPhone < 5:\n@media screen and (device-aspect-ratio: 2/3) {}\n\niPhone 5:\n@media screen and (device-aspect-ratio: 40/71) {}\n\niPhone 6:\n@media screen and (device-aspect-ratio: 375/667) {}\n\niPhone 6 Plus:\n@media screen and (device-aspect-ratio: 16/9) {}\n\niPad:\n@media screen and (device-aspect-ratio: 3/4) {}\n*/\n\n.App-container {\n  /*font-family: 'Roboto', sans-serif;*/\n  font-family: 'Roboto', sans-serif;\n}\n.App-container section {\n  /*background-color: #f5f7fa;*/\n}\n\n@media screen and (device-aspect-ratio: 2/3) and (device-aspect-ratio: 40/71) and (device-aspect-ratio: 375/667) {\n  .header-toggle {\n    display: block;\n  }\n  .header-menu {\n    display: none;\n  }\n}\n/*Note that the iPhone 5 does not have a 16:9 aspect ratio. It is in fact 40:71.*/\n\n.App-container .header-toggle {\n  height: 79px;\n  width: 79px;\n}\n#b {\n    box-shadow: 0 20px 60px rgba(17, 17, 17, 0.05), 0 5px 10px rgba(17, 17, 17, 0.1), 0 1px 1px rgba(17, 17, 17, 0.2);\n    display: inline-block;\n    /* height: 240px; */\n    margin-bottom: 40px;\n    vertical-align: top;\n    width: 240px;\n}\n\n#b img {\n  opacity: .5;\n}\n\n#letstalk {\n  border-width: 1px;\n  font-size: 36px;\n  height: 62px;\n}\nsection.hero {\n}\n\n\n.hero-hero-body h1.title.is-1 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  /*background-color: #EC4A32;*/\n}\n.hero-hero-body .title.is-3 {\n  color: #69707a;\n  text-transform: uppercase;\n  font-size: 16px;\n  margin-bottom: 30px;\n}\n.hero-hero-body .title.is-3 strong {\n  color: #EC4A32;\n  text-transform: uppercase;\n}\n\n#brief {\n  color: #69707a;\n  font-size: 18px;\n  line-height: 1.3;\n}\nsection.hero .hero-body .title {\n  max-width: 600px;\n}\n\nsection.hero .hero-body {\n  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0);\n  border-bottom: 1px solid #ddd;\n  padding: 40px 40px;\n  /*background-image: url('./4262.jpg');*/\n}\nsection.hero .hero-body h1.hero-title {\n  text-transform: uppercase;\n  font-size: 85px;\n  font-weight: bold;\n  margin-bottom: 30px;\n}\nsection.hero .hero-body h2 {\n  font-size: 25px;\n  margin-bottom: 30px;\n  background: #EC4A32;\n}\n\n.control {\n  text-align: center;\n}\n\n.aa_sec\n{\n    position: absolute;\n    z-index: 5;\n    top: 50%;\n    right: 0;\n    left: 0;\n\n    margin: 0  auto;\n}\n\n#cta {\n  max-width: 200px;\n}\n", ""]);
 
 	// exports
 
@@ -41727,9 +41727,11 @@
 
 	var _actions2 = _interopRequireDefault(_actions);
 
-	var _Header = __webpack_require__(347);
+	var _Hero = __webpack_require__(347);
 
-	var _Hero = __webpack_require__(348);
+	var _Contact = __webpack_require__(350);
+
+	var _Works = __webpack_require__(351);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -41752,26 +41754,11 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'section',
-	        { className: 'hero has-text-centered' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'hero-head' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'container' },
-	            _react2.default.createElement(_Header.Head, null)
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'hero-body' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'container' },
-	            _react2.default.createElement(_Hero.Hero, null)
-	          )
-	        )
+	        'div',
+	        null,
+	        _react2.default.createElement(_Hero.Hero, null),
+	        _react2.default.createElement(_Works.Works, null),
+	        _react2.default.createElement(_Contact.ContactForm, null)
 	      );
 	    }
 	  }]);
@@ -41792,6 +41779,163 @@
 
 /***/ },
 /* 347 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(139); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.Hero = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(139);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _Ctablock = __webpack_require__(348);
+
+	var _Header = __webpack_require__(349);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Hero = exports.Hero = function (_Component) {
+	  _inherits(Hero, _Component);
+
+	  function Hero() {
+	    _classCallCheck(this, Hero);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Hero).apply(this, arguments));
+	  }
+
+	  _createClass(Hero, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { className: 'hero' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'hero-head' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'container' },
+	            _react2.default.createElement(_Header.Head, null)
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'hero-body hero-hero-body' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'container' },
+	            _react2.default.createElement(
+	              'h4',
+	              { className: 'title is-3' },
+	              'Hello, my name is ',
+	              _react2.default.createElement(
+	                'strong',
+	                null,
+	                'Maxim Ivanov'
+	              ),
+	              '.'
+	            ),
+	            _react2.default.createElement(
+	              'h1',
+	              { className: 'title is-1' },
+	              'Full Stack Web and Mobile Developer'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'title', id: 'brief' },
+	              'If you need a contractor for programming, design, reseach or consultancy - I can help! I can make your web or mobile app shine: delightful user experience and top notch technical implementation.'
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { id: 'b' },
+	              false ? _react2.default.createElement('img', { src: 'FullSizeRender.jpg', alt: 'My photo' }) : null
+	            ),
+	            _react2.default.createElement(_Ctablock.Cta, null)
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Hero;
+	}(_react.Component);
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(330); if (makeExportsHot(module, __webpack_require__(139))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Hero.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 348 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(139); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.Cta = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(139);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Cta = exports.Cta = function (_Component) {
+	  _inherits(Cta, _Component);
+
+	  function Cta() {
+	    _classCallCheck(this, Cta);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Cta).apply(this, arguments));
+	  }
+
+	  _createClass(Cta, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'nav',
+	        { className: 'level', id: 'cta' },
+	        _react2.default.createElement(
+	          'button',
+	          { className: 'button is-large is-outlined level-item is-success', id: 'letstalk' },
+	          'Lets Talk!'
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Cta;
+	}(_react.Component);
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(330); if (makeExportsHot(module, __webpack_require__(139))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Ctablock.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 349 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(139); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -41840,7 +41984,7 @@
 	          _react2.default.createElement(
 	            "a",
 	            { className: "nav-item is-brand", href: "/" },
-	            " HIGHBEATS "
+	            "MI"
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -41882,7 +42026,12 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { className: "is-hidden nav-item  ", href: "#" },
+	            { className: "nav-item is-active", href: "#" },
+	            "Tools"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { className: "nav-item  ", href: "#" },
 	            "Work"
 	          ),
 	          _react2.default.createElement(
@@ -41907,7 +42056,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ },
-/* 348 */
+/* 350 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(139); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -41917,7 +42066,7 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.Hero = undefined;
+	exports.ContactForm = undefined;
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -41933,44 +42082,213 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Hero = exports.Hero = function (_Component) {
-	  _inherits(Hero, _Component);
+	var ContactForm = exports.ContactForm = function (_Component) {
+	  _inherits(ContactForm, _Component);
 
-	  function Hero() {
-	    _classCallCheck(this, Hero);
+	  function ContactForm(props) {
+	    _classCallCheck(this, ContactForm);
 
-	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Hero).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(ContactForm).call(this, props));
+
+	    _this.state = {
+	      fields: {
+	        name: '',
+	        company: '',
+	        inquiry: ''
+	      }
+	    };
+	    return _this;
 	  }
 
-	  _createClass(Hero, [{
+	  _createClass(ContactForm, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        { className: 'container' },
+	        'section',
+	        { className: 'hero' },
 	        _react2.default.createElement(
 	          'div',
-	          { id: 'b' },
-	          _react2.default.createElement('img', { src: 'FullSizeRender.jpg', alt: 'My photo' })
-	        ),
-	        _react2.default.createElement(
-	          'h1',
-	          { className: 'title' },
-	          ' Maxim Ivanov '
-	        ),
-	        _react2.default.createElement(
-	          'h2',
-	          { sclassName: 'subtitle' },
-	          'Full Stack Web and Mobile Developer'
+	          { className: 'hero-body' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'container' },
+	            _react2.default.createElement(
+	              'h4',
+	              { className: 'title is-2' },
+	              'Contact me'
+	            ),
+	            _react2.default.createElement(
+	              'label',
+	              { className: 'label' },
+	              'Name'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'control' },
+	              _react2.default.createElement('input', { className: 'input', type: 'text', placeholder: 'Your name and/or company' })
+	            ),
+	            _react2.default.createElement(
+	              'label',
+	              { className: 'label' },
+	              'Contact info'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'control' },
+	              _react2.default.createElement('input', { className: 'input', type: 'text', placeholder: 'Email, skype etc' })
+	            ),
+	            _react2.default.createElement(
+	              'label',
+	              { className: 'label' },
+	              'Message'
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'control' },
+	              _react2.default.createElement('textarea', { className: 'textarea', placeholder: 'Describe your project or inquiry' })
+	            ),
+	            _react2.default.createElement(
+	              'button',
+	              { className: 'button is-large' },
+	              'Send'
+	            )
+	          )
 	        )
 	      );
 	    }
 	  }]);
 
-	  return Hero;
+	  return ContactForm;
 	}(_react.Component);
 
-	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(330); if (makeExportsHot(module, __webpack_require__(139))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Hero.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(330); if (makeExportsHot(module, __webpack_require__(139))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Contact.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
+
+/***/ },
+/* 351 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(module) {/* REACT HOT LOADER */ if (true) { (function () { var ReactHotAPI = __webpack_require__(77), RootInstanceProvider = __webpack_require__(85), ReactMount = __webpack_require__(87), React = __webpack_require__(139); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.Works = undefined;
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(139);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Works = exports.Works = function (_Component) {
+	  _inherits(Works, _Component);
+
+	  function Works() {
+	    _classCallCheck(this, Works);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Works).apply(this, arguments));
+	  }
+
+	  _createClass(Works, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'section',
+	        { className: 'hero' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'hero-body' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'container' },
+	            _react2.default.createElement(
+	              'h4',
+	              { className: 'title is-2' },
+	              'My Works'
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Works;
+	}(_react.Component);
+
+	var Card = function (_Component2) {
+	  _inherits(Card, _Component2);
+
+	  function Card() {
+	    _classCallCheck(this, Card);
+
+	    return _possibleConstructorReturn(this, Object.getPrototypeOf(Card).apply(this, arguments));
+	  }
+
+	  _createClass(Card, [{
+	    key: 'render',
+	    value: function render() {
+	      var _props = this.props;
+	      var name = _props.name;
+	      var description = _props.description;
+
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'card' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'card-image' },
+	          _react2.default.createElement(
+	            'figure',
+	            { className: 'image is-4by3' },
+	            _react2.default.createElement('img', { src: 'http://placehold.it/300x225', alt: '' })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'card-content' },
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'media' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'media-content' },
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'title is-5' },
+	                { name: name }
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'subtitle is-6' },
+	                { name: name }
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'content' },
+	            { description: description }
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Card;
+	}(_react.Component);
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (true) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = __webpack_require__(330); if (makeExportsHot(module, __webpack_require__(139))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Works.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }
