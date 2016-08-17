@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3e0c9ff4aac15b25f6a3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a333096b449237309cd5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -44159,7 +44159,7 @@
 
 
 	// module
-	exports.push([module.id, "/*\niPhone < 5:\n@media screen and (device-aspect-ratio: 2/3) {}\n\niPhone 5:\n@media screen and (device-aspect-ratio: 40/71) {}\n\niPhone 6:\n@media screen and (device-aspect-ratio: 375/667) {}\n\niPhone 6 Plus:\n@media screen and (device-aspect-ratio: 16/9) {}\n\niPad:\n@media screen and (device-aspect-ratio: 3/4) {}\n*/\n@media screen and (device-aspect-ratio: 375/667) {\n  div.hero-hero-body {\n    padding: 2.5rem 2.5rem;\n  }\n\n  div#works {\n    padding: 2.5rem 2.5rem;\n  }\n\n  div#contact {\n    padding: 2.5rem 2.5rem;\n  }\n}\n\n@media screen and (device-aspect-ratio: 40/71) {\n  div.hero-hero-body {\n    padding: 2.5rem 2.5rem;\n  }\n  div#works {\n    padding: 2.5rem 2.5rem;\n  }\n  div#contact {\n    padding: 2.5rem 2.5rem;\n  }\n}\n/*Note that the iPhone 5 does not have a 16:9 aspect ratio. It is in fact 40:71.*/\n.hero-hero-body {\n  padding: 10.5rem 10rem;\n}\n\n#nav-menu {\n  padding-right: 15rem;\n  font-weight: bold;\n}\n\n\n.talktome-appear {\n  opacity: 0.01;\n  transition-property: opacity;\n  transition-duration: 1s;\n  transition-timing-function: ease-in-out;\n}\n\n.talktome-appear.talktome-appear-active {\n  opacity: 1;\n}\n\n@keyframes slide {\n  0% {\n    left: -500px;\n    top: 0;\n  }\n  50% {\n    left: 200px;\n    top: 0;\n  }\n  100% {\n    left: 500px;\n    top: 0;\n  }\n}\n\n.herogreeting-appear, .animation-start {\n  opacity: 0.01;\n  margin: 0px 0px 0px 0px;\n  transition-property: opacity, margin;\n  transition-duration: .5s, .5s;\n  transition-timing-function: ease-out, ease-out;\n}\n\n.herogreeting-appear.herogreeting-appear-active, .animation-done {\n  opacity: 1;\n  margin: 0px 0px 20px 0px;\n}\n\n#works {\n  padding: 2.5rem 10rem;\n  background-color: #f7f7f7;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0);\n}\n\n#contact {\n  padding: 2.5rem 10rem;\n}\n\n#contact h4 {\n  margin-bottom: 35px;\n}\n\n#cnti i {\n  color: #333;\n}\n\n#myface {\n  border: 1px solid #333;\n  left: 0;\n  right: 0;\n  margin-bottom: 20px;\n}\n\n#formbox {\n  max-width: 600px;\n}\n\n#works h4 {\n  margin-bottom: 35px;\n}\n\n.tag {\n  margin-right: 5px;\n}\n\nimg.image.is-1by1 {\n  padding-top: 0;\n}\nhtml {\n  font-size: 16px;\n}\n\nhtml,\nbody,\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: \"Roboto\", sans-serif;\n}\n\nbutton.button {\n  border-radius: 0;\n}\n\n.nav {\n  padding-left: 15px;\n  padding-right: 15px;\n}\n\nsection.hero {\n  /*background-color: transparent;*/\n}\nh1, h1.title.is-1 {\n  font-size: 3rem;\n  font-weight: bold;\n  color: #fff;\n  background-color: #505061;\n  margin-bottom: 5px;\n}\n\nh2 {\n  font-size: 2rem;\n  background-color: #fff;\n}\n\nh3, h3.title.is-3 {\n  font-size: 1rem;\n  background-color: #fff;\n}\n\n#letstalk1 {\n  border-width: 1px;\n  font-size: 1.7rem;\n  height: 52px;\n}\n#letstalk {\n  border-color: #505061;\n  border-width: 1px;\n  font-size: 1.7rem;\n  height: 52px;\n}\n\n#nav-menu .nav-item {\n  padding-top: 15%;\n  font-size: 1rem;\n}\n\n.hero-hero-body .title.is-3 {\n  color: #69707a;\n  font-size: .9rem;\n  text-transform: uppercase;\n  margin-bottom: -2px;\n}\n.hero-hero-body .title.is-3 strong {\n  color: #EC4A32;\n  text-transform: uppercase;\n}\n\n#brief {\n  color: #69707a;\n  font-size: 1em;\n  line-height: 1.3;\n  background-color: #fff;\n}\nsection.hero .hero-body .title {\n  max-width: 600px;\n}\n\nsection.hero .hero-body {\n  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0);\n  border-bottom: 1px solid #ddd;\n  /*padding: 40px 40px;*/\n  /*background-image: url('./4262.jpg');*/\n}\n\n.aa_sec\n{\n    position: absolute;\n    z-index: 5;\n    top: 50%;\n    right: 0;\n    left: 0;\n\n    margin: 0  auto;\n}\n\n#cta {\n  max-width: 500px;\n}\n\n#bg-cover {\n  position: fixed;\n  top: 0;\n  left: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -100;\n  opacity: .5;\n  display: none;\n}\n", ""]);
+	exports.push([module.id, "/*\niPhone < 5:\n@media screen and (device-aspect-ratio: 2/3) {}\n\niPhone 5:\n@media screen and (device-aspect-ratio: 40/71) {}\n\niPhone 6:\n@media screen and (device-aspect-ratio: 375/667) {}\n\niPhone 6 Plus:\n@media screen and (device-aspect-ratio: 16/9) {}\n\niPad:\n@media screen and (device-aspect-ratio: 3/4) {}\n*/\n@media screen and (device-aspect-ratio: 375/667) {\n  div.hero-hero-body {\n    padding: 2.5rem 2.5rem;\n  }\n\n  div#works {\n    padding: 2.5rem 2.5rem;\n  }\n\n  div#contact {\n    padding: 2.5rem 2.5rem;\n  }\n}\n\n@media screen and (device-aspect-ratio: 40/71) {\n  div.hero-hero-body {\n    padding: 2.5rem 2.5rem;\n  }\n  div#works {\n    padding: 2.5rem 2.5rem;\n  }\n  div#contact {\n    padding: 2.5rem 2.5rem;\n  }\n}\n/*Note that the iPhone 5 does not have a 16:9 aspect ratio. It is in fact 40:71.*/\n.hero-hero-body {\n  padding: 10.5rem 10rem;\n}\n\n#nav-menu {\n  padding-right: 15rem;\n  font-weight: bold;\n}\n\n\n.talktome-appear {\n  opacity: 0.01;\n  transition-property: opacity;\n  transition-duration: 1s;\n  transition-timing-function: ease-in-out;\n}\n\n.talktome-appear.talktome-appear-active {\n  opacity: 1;\n}\n\n@keyframes slide {\n  0% {\n    left: -500px;\n    top: 0;\n  }\n  50% {\n    left: 200px;\n    top: 0;\n  }\n  100% {\n    left: 500px;\n    top: 0;\n  }\n}\n\n.herogreeting-appear, .animation-start {\n  opacity: 0.01;\n  margin: 0px 0px 0px 0px;\n  transition-property: opacity, margin;\n  transition-duration: .5s, .5s;\n  transition-timing-function: ease-out, ease-out;\n}\n\n.herogreeting-appear.herogreeting-appear-active, .animation-done {\n  opacity: 1;\n  margin: 0px 0px 20px 0px;\n}\n\n#works {\n  padding: 2.5rem 10rem;\n  background-color: #f7f7f7;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0);\n}\n\n#contact {\n  padding: 2.5rem 10rem;\n}\n\n#contact h4 {\n  margin-bottom: 35px;\n}\n\n#cnti i {\n  color: #333;\n}\n\n#myface {\n  border: 1px solid #333;\n  left: 0;\n  right: 0;\n  margin-bottom: 20px;\n}\n\n#formbox {\n  max-width: 600px;\n}\n\n#works h4 {\n  margin-bottom: 35px;\n}\n\n.tag {\n  margin-right: 5px;\n}\n\nimg.image.is-1by1 {\n  padding-top: 0;\n}\nhtml {\n  font-size: 16px;\n}\n\nhtml,\nbody,\nbutton,\ninput,\nselect,\ntextarea {\n  font-family: \"Roboto\", sans-serif;\n}\n\nbutton.button {\n  border-radius: 0;\n}\n\n.nav {\n  padding-left: 15px;\n  padding-right: 15px;\n}\n\nsection.hero {\n  /*background-color: transparent;*/\n}\nh1, h1.title.is-1 {\n  font-size: 3rem;\n  font-weight: bold;\n  color: #fff;\n  background-color: #505061;\n  margin-bottom: 5px;\n}\n\nh2 {\n  font-size: 2rem;\n  background-color: #fff;\n}\n\nh3, h3.title.is-3 {\n  font-size: 1rem;\n  background-color: #fff;\n}\n\n#letstalk1 {\n  border-color: #505061;\n  border-width: 1px;\n  font-size: 1.7rem;\n  height: 52px;\n}\n#letstalk {\n  border-color: #505061;\n  border-width: 1px;\n  font-size: 1.7rem;\n  height: 52px;\n  margin-left: 20px;\n}\n\n#nav-menu .nav-item {\n  padding-top: 15%;\n  font-size: 1rem;\n}\n\n.hero-hero-body .title.is-3 {\n  color: #69707a;\n  font-size: .9rem;\n  text-transform: uppercase;\n  margin-bottom: -2px;\n}\n.hero-hero-body .title.is-3 strong {\n  color: #EC4A32;\n  text-transform: uppercase;\n}\n\n#brief {\n  color: #69707a;\n  font-size: 1em;\n  line-height: 1.3;\n  background-color: #fff;\n}\nsection.hero .hero-body .title {\n  max-width: 600px;\n}\n\nsection.hero .hero-body {\n  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0);\n  border-bottom: 1px solid #ddd;\n  /*padding: 40px 40px;*/\n  /*background-image: url('./4262.jpg');*/\n}\n\n.aa_sec\n{\n    position: absolute;\n    z-index: 5;\n    top: 50%;\n    right: 0;\n    left: 0;\n\n    margin: 0  auto;\n}\n\n#cta {\n  max-width: 500px;\n}\n\n#bg-cover {\n  position: fixed;\n  top: 0;\n  left: 0;\n  min-width: 100%;\n  min-height: 100%;\n  z-index: -100;\n  opacity: .5;\n  display: none;\n}\n", ""]);
 
 	// exports
 
@@ -45618,24 +45618,23 @@
 	            transitionLeaveTimeout: 1000 },
 	          _react2.default.createElement(
 	            'button',
+	            { href: '#',
+	              className: 'button level-item is-outlined',
+	              id: 'letstalk1',
+	              onClick: function onClick(e) {
+	                return _this2.props.scrollTo('works');
+	              } },
+	            'See works'
+	          ),
+	          _react2.default.createElement(
+	            'button',
 	            {
 	              className: 'button is-large level-item is-outlined',
 	              id: 'letstalk',
 	              onClick: function onClick(e) {
 	                return _this2.props.scrollTo('contactme');
 	              } },
-	            'Contact'
-	          ),
-	          _react2.default.createElement(
-	            'a',
-	            { href: '#',
-	              style: { borderColor: '#bbb', marginLeft: '5px' },
-	              className: 'button is-medium level-item is-outlined',
-	              id: 'letstalk1',
-	              onClick: function onClick(e) {
-	                return _this2.props.scrollTo('works');
-	              } },
-	            'Works'
+	            'Contact me'
 	          )
 	        )
 	      );
